@@ -11,6 +11,11 @@ const mesh = new THREE.Mesh(geometry, material)
 
 mesh.position.set(0.7, - 0.6, 1)
 
+mesh.scale.set(2, 0.5, 0.5)
+
+mesh.rotation.x = Math.PI * 0.25
+mesh.rotation.y = Math.PI * 0.25
+
 scene.add(mesh)
 
 // Sizes
